@@ -3,7 +3,7 @@
 ### **Table of Contents**
 - Introductions
 - What is MKDocs?
-- Features of MKDocs
+- Why use MKDocs
 - Requirements for installation of MKDocs
 - Installation of MKDocs
 - Writing your documentations with MKDocs
@@ -13,10 +13,14 @@
 -  How to deploy your docs
 - Conclusion
 
-### Introduction
+### **Introduction**
 We live in a **Degital Age**, an era where there is accelerated technological progress. Many businesses are now using technology to advance their businesses. How can business owners, developers, and teams provide detailed user-guides, project documentation or API references in a well organized manner? This is where MKDocs comes in. MKDocs is a static site generator for creating documentation. 
 
 This article  will explain what MKDocs is and how it works, the features of MKDocs and step by step guide on how to us it.
+
+### **What is MKDocs?**
+MKDocs is a static site generator that is used for creating documentation from Markdown files. MKDocs allows you to build simple, fast, well organized and responsive documentation.
+Documentation sites are written in Markdown and configured with a single file called **YAML**.
 
 ### **Requirements for installation of MKDocs**
 
