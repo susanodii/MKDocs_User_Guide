@@ -13,6 +13,10 @@
 -  How to deploy your docs
 - Conclusion
 
+### Introduction
+We live in a **Degital Age**, an era where there is accelerated technological progress. Many businesses are now using technology to advance their businesses. How can business owners, developers, and teams provide detailed user-guides, project documentation or API references in a well organized manner? This is where MKDocs comes in. MKDocs is a static site generator for creating documentation. 
+
+This article  will explain what MKDocs is and how it works, the features of MKDocs and step by step guide on how to us it.
 
 ### **Requirements for installation of MKDocs**
 
@@ -146,3 +150,7 @@ Running the command above, will build your documentaion and then, provide a link
 Your project should look like the image below:
 
 ![](images/welcomeToMKDOCS.PNG)
+
+Having succesfully created a project folder and ran it on the browser, let us make changes to the documentaion and customize it to our preference using MKDocs as our case study.
+
+**Adding pages**
