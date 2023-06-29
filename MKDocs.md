@@ -70,3 +70,26 @@ The link will take you to the website where you will download and installed Pyth
 ![](images/installPython.png)
 
 ![](images/installationSuccessful.PNG)
+
+### Installation of Pip
+If you have the latest version of Python installed in your system, then, Pip (Python package manager) is mostly likely in you system but you will need ugrade it using the command line the command line below
+
+```
+pip install --upgrade pip
+```
+
+If you do not have pip installed in your system, run the following command to install it:
+
+```
+python get-pip.py
+```
+
+<!-- ### Installation of MKDocs
+
+To, install MKDocs, it is assumed that you now have the current version of **Python** and **Pip** in your system. If you do, then let us move ahed to the installation.
+
+Run the command below in your command line or your Visual Studio Code.
+
+```
+pip install mkdocs
+``` -->
