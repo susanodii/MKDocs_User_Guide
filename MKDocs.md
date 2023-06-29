@@ -6,7 +6,7 @@
 - Features of MKDocs
 - Requirements for installation of MKDocs
 - Installation of MKDocs
-- 
+- How to deploy MKDocs 
 - Conclusion
 
 
