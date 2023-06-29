@@ -6,7 +6,11 @@
 - Features of MKDocs
 - Requirements for installation of MKDocs
 - Installation of MKDocs
-- How to deploy MKDocs 
+- Writing your documentations with MKDocs
+- How to choose your theme 
+-  How to localize your theme
+-  How to configure your documentation
+-  How to deploy your docs
 - Conclusion
 
 
