@@ -88,12 +88,16 @@ If you do not have pip installed in your system, run the following command to in
 python get-pip.py
 ```
 
-<!-- ### Installation of MKDocs
+### Installation of MKDocs
 
-To, install MKDocs, it is assumed that you now have the current version of **Python** and **Pip** in your system. If you do, then let us move ahed to the installation.
+To install MKDocs, you are required to have the current version of **Python** and **Pip** in your system. If you do not have **Python** installed in your system, follow the guides outlined above on how to install Python and Pip on your system. However, if you have the current version of Python on you system:
 
-Run the command below in your command line or your Visual Studio Code.
+
+- Run the command below in your command line or your Visual Studio Code.
 
 ```
 pip install mkdocs
-``` -->
+```
+After installation, your command line will indicated that you have successfully installed MKDocs.
+
+![](images/succefullyInstalledMkdocs.png)
