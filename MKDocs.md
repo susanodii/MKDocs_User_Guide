@@ -22,6 +22,29 @@ This article  will explain what MKDocs is and how it works, the features of MKDo
 MKDocs is a static site generator that is used for creating documentation from Markdown files. MKDocs allows you to build simple, fast, well organized and responsive documentation.
 Documentation sites are written in Markdown and configured with a single file called **YAML**.
 
+### **Why use MKDocs?**
+
+- **Customizable and responsive themes**
+
+MCKDocs offers varities of good looking themes
+ that are responsive. You can choose between built in themes,select a third-party theme or build your own theme.
+
+- **Preview your site as you work** 
+
+MCKDocs allows you to preview you documentation as you work. It auto reload and refresh your browser anytime you save any change made to your work.
+
+- **Host Anywhere**
+
+You can host your work on GitHub Pages, Amazon S3, or any other place of your choice.
+
+- **Simple Configuration**
+
+MKDocs uses simple configuration file called "**mkdocs.yml**" to control settings. This configuration file allows you to customize your documentation to your preference and needs.
+
+- **Navigation and Search Features**
+
+MKDocs automatically generates table of contents and navigation side bar based on your preference, making it easier for users to find information quickly and efficently.
+
 ### **Requirements for installation of MKDocs**
 
 To build a documentation with MKDocs, you need to have the recent version of **Python** and Python package manager called **Pip**.
