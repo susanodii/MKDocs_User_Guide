@@ -1,7 +1,7 @@
 ## **A Detailed guide to MKDocs**
 
 ### **Table of Contents**
-- Introductions
+- Introduction
 - What is MKDocs?
 - Why use MKDocs
 - Requirements for installation of MKDocs
@@ -20,7 +20,7 @@ This article  will explain what MKDocs is and how it works, the features of MKDo
 
 ### **What is MKDocs?**
 MKDocs is a static site generator that is used for creating documentation from Markdown files. MKDocs allows you to build simple, fast, well organized and responsive documentation.
-Documentation sites are written in Markdown and configured with a single file called **YAML**.
+Documentation sites are written with Markdown and configured with a single file called **YAML**.
 
 ### **Why use MKDocs?**
 
@@ -31,7 +31,7 @@ MCKDocs offers varities of good looking themes
 
 - **Preview your site as you work** 
 
-MCKDocs allows you to preview you documentation as you work. It auto reload and refresh your browser anytime you save any change made to your work.
+MCKDocs allows you to preview you documentation as you work. It auto reloads and refresh your browser anytime you save any change made to your work.
 
 - **Host Anywhere**
 
@@ -39,7 +39,7 @@ You can host your work on GitHub Pages, Amazon S3, or any other place of your ch
 
 - **Simple Configuration**
 
-MKDocs uses simple configuration file called "**mkdocs.yml**" to control settings. This configuration file allows you to customize your documentation to your preference and needs.
+MKDocs uses simple configuration file called **mkdocs.yml** to control settings. This configuration file allows you to customize your documentation to your preference and needs.
 
 - **Navigation and Search Features**
 
@@ -55,16 +55,16 @@ To check if you have **Python** and pip installed in your system:
   
   ![](images/openingTheCommandLine.png)
   
-- Copy and paste the following command in your command line. You can also run the command in your Visual Studio Code terminal.
+- Copy and paste the following command in your command line. 
 
 ```
  python --version
  ```
- Your command line or terminal will indicate the version of Python in your system as indicated in the image below:
+ Your command line will indicate the version of Python in your system as shown in the image below:
 
  ![](images/pythonVersion.png)
 
- Once, you have confirmed that you have Python installed in your system,copy the next command and paste on your command line or terminal.
+ Once, you have confirmed that you have Python installed in your system, check for the pip version too. Copy the command below and paste on your command line. 
 
  ```
 pip --version
@@ -74,18 +74,18 @@ pip --version
 
 
 
-However, if you do not have **Python** installed in system. 
+However, if you do not have **Python** installed in system, you will need to install it in your device. To do this:
   
   - Click on https://www.python.org/ .
-The link will take you to the website where you will download and installed Python.
+The link will take you to Python website. 
 
 ![](images/pythonWebsite.PNG)
 
-- At the top, Hover over "**Downloads**", a drop-down menu with pop-up.
+- At the top, Hover over **Downloads**, a drop-down menu with pop-up.
 
 ![](images/downloadPython.png)
 
-- Under "**Download for Windows**", click on the button showing the latest version of Python. 
+- Under **Download for Windows**, click on the button showing the latest version of Python. 
 
 ![](images/downloadLatestVersionOfPython.png)
 
@@ -96,24 +96,24 @@ The link will take you to the website where you will download and installed Pyth
 
  ![](images/macOSLatestRelease.PNG)
 
- - After downloading, click on the downloaded file.Before installing, check the box to "**Add Python.exe to Path**"  
+ - To install your file, click on the downloaded file.Before installing, check the box to **Add Python.exe to Path**  
 
 ![](images/checkAddPath.png)
   
-  - Click on "**Install now**". After installation, a box will pop up showing that the installation was successful.
+  - Click on **Install now**. After installation, a box will pop up showing that the installation was successful.
 
 ![](images/installPython.png)
 
 ![](images/installationSuccessful.PNG)
 
 ### **Installation of Pip**
-If you have the latest version of Python installed in your system, then, Pip (Python package manager) is mostly likely in you system but you will need ugrade it using the command line the command line below
+Pip (Python package manager) is most likely in your system if you have the latest version of Python installed in your system. However you will need ugrade it using the command below.
 
 ```
 pip install --upgrade pip
 ```
 
-If you do not have pip installed in your system, run the following command to install it:
+If you do not have Pip installed in your system, run the following command to install it:
 
 ```
 python get-pip.py
@@ -121,10 +121,10 @@ python get-pip.py
 
 ### **Installation of MKDocs**
 
-To install MKDocs, you are required to have the current version of **Python** and **Pip** in your system. If you do not have **Python** installed in your system, follow the guides outlined above on how to install Python and Pip on your system. However, if you have the current version of Python on you system:
+ MKDocs works with the current version of **Python** and **Pip** in your system. If you do not have **Python** installed in your system, follow the guides outlined above on how to install Python and Pip on your system. If you have the current version of Python on you system, then let us move on to the installation process. 
 
 
-- Run the command below in your command line or your Visual Studio Code.
+To install MKDocs, run the command below in your command line.
 
 ```
 pip install mkdocs
@@ -136,18 +136,19 @@ After installation, your command line will indicated that you have successfully 
 
 ### **Writing your documentations with MKDocs**
 
-Your documentation should be written using **Markdown**. Markdown is used for formatting and stucturing plain text. It is a light weight markup language used in MKDocs for creating documentation. To learn more about markdown and how to work with it, click on https://www.markdownguide.org/basic-syntax/.
+Documentation are  written using a text formater known as **Markdown**. Markdown is also used for stucturing plain text. It is a light weight markup language used in MKDocs for creating documentation. To learn more about markdown and how to work with it, click on https://www.markdownguide.org/basic-syntax/. 
 
-To create your project folder:
+Let's move ahead with creating a project folder.To create your project folder:
 
 - On your terminal, run the command below:
 
 ```
 mkdocs new my-project
 ```
+
 ![](images/createProjectFolder.png)
 
-- Move into the folder (my-project) you created using the command below:
+- Move into the folder ("my-project") you created using the command below:
 
 ```
 cd my-project
@@ -155,22 +156,23 @@ cd my-project
 
 ![](images/moToMyProject.png)
 
-- Move to Visual Studios Code from your terminal by running the command below:
+- Move to Visual Studios Code from your terminal by running the command below from your command line:
 
 ```
 code .
 ```
 ![](images/moveVSCODE.png)
 
-From the folder, you will see a single configuration file named **mkdocs.yml** and a  folder named **docs** that contains **index.md**. " "docs" will hold all your documentation source file while "mkdocs.yml" will serve as the central configuration file where you customize various aspect of your site to suite your specific needs and preferences.
 
-Let us view our project on the browser before making customizing our documentation. To do this, go back to your terminal and run the command below
+From the folder, you will see a single configuration file named **mkdocs.yml** and a  folder named **docs** that contains **index.md**.  "docs" will hold all your documentation source file while "mkdocs.yml" will serve as the central configuration file where you customize various aspect of your site to suite your specific needs and preferences.
+
+Let us view our project on the browser before customizing our documentation to our preference. To do this, go back to your terminal and run the command below:
 
 ```
 mkdocs serve
 ```
 
-Running the command above, will build your documentaion and then, provide a link. Copy the link and paste it on your browser.
+Running the command above, will build your documentaion and then, provide a your site link. Copy the link and paste it on your browser.
 
 ![](images/linkToServer.png)
 
@@ -178,6 +180,6 @@ Your project should look like the image below:
 
 ![](images/welcomeToMKDOCS.PNG)
 
-Having succesfully created a project folder and ran it on the browser, let us make changes to the documentaion and customize it to our preference using MKDocs as our case study.
+Having succesfully created a project folder and ran it on the browser, let us make changes to the documentaion and customize it to our preference using MKDocs as a case study.
 
 **Adding pages**
