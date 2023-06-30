@@ -1,5 +1,8 @@
 ## **A Detailed guide to MKDocs**
 
+![](images/mkdocs%20logo.jpg)
+
+
 ### **Table of Contents**
 - Introduction
 - What is MKDocs?
@@ -180,6 +183,75 @@ Your project should look like the image below:
 
 ![](images/welcomeToMKDOCS.PNG)
 
+MKDocs dev-server supports auto-reloading. This means that it rebuilds as soon as you make changes to your configuration file, theme or documentation directory.  
+
 Having succesfully created a project folder and ran it on the browser, let us make changes to the documentaion and customize it to our preference using MKDocs as a case study.
 
+
+
+**Change Site Name and Add Site URL**
+
+<!-- Let us make changes to the **Home Page**. We will do the following:
+- Change the site name
+- Add site url. -->
+
+
+ On you Visual Studio Code(VS Code) or any code editor of your choice, do the following:
+
+
+- Click on the **mkdocs.yml**. This will open the configuration file where you will configure your documentation to your preference.
+
+![](images/mkdocs_yml.png)
+
+![](images/yml_opened.png)
+
+- Copy and paste the changes below:
+  ```
+  site_name: MKDocs
+
+  site_url:  https://example.com/
+  ```
+
+After making changes to your site name, save the changes and check your browser. You will notice that your site name changed immediately. 
+
+![](images/site_name.png)
+
+The **site_name** and the **site_url** are the only two required options in your configuration file.
+
+
 **Adding pages**
+
+Let us add the following pages:
+- Home Page
+- About Page
+- User Guide
+
+1. First, go to your VS Code and create the above 
+files under the "docs" folder.
+
+![](images/createFile.png)
+
+![](images/createMoreFiles.png)
+
+
+2. Next, we will edit the **mkdocs.yml** by adding a nav setting to it. Copy the settings below
+
+```
+nav:
+- Home: index.md
+- About: about.md
+- User Guide: userGuide.md
+
+```
+
+From the settings above, notice that the **Home Page** is linked to the index.md file.
+
+Next, let us add more information to the **About Page** and the **User Guide page**. 
+
+ Click on the **about.md** and **userguide.md** and write your documentation as shown in the images below:
+ ![](images/aboutWriteUp.png)
+
+
+![](images/userguide.png)
+
+You can add more pages to your documentation and write to suite your need and preference
