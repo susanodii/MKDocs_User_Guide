@@ -10,14 +10,13 @@
 - Requirements for installation of MKDocs
 - Installation of MKDocs
 - Writing your documentations with MKDocs
-- How to choose your theme 
--  How to localize your theme
--  How to configure your documentation
+- Theming your documentation
 -  How to deploy your docs
 - Conclusion
 
 ### **Introduction**
-We live in a **Degital Age**, an era where there is accelerated technological progress. Many businesses are now using technology to advance their businesses. How can business owners, developers, and teams provide detailed user-guides, project documentation or API references in a well organized manner? This is where MKDocs comes in. MKDocs is a static site generator for creating documentation. 
+We live in a **Degital Age**, an era where there is accelerated technological progress. Many businesses are now using technology to advance their businesses. How can business owners, developers, and teams provide detailed user-guides, project documentation or API references in a
+ well organized manner? This is where MKDocs comes in. MKDocs is a static site generator for creating documentation. 
 
 This article  will explain what MKDocs is and how it works, the features of MKDocs and step by step guide on how to us it.
 
@@ -264,3 +263,15 @@ From the navigation bar, you will see the Home Page, About and User Guide on the
  ![](images/serchMKDOCS.png)
 
 You can add more pages to your documentation and write to suit your need. 
+
+### **Theming your documentation**
+
+You can alter how your documentation is displayed by changing your theme.You can do this by editing the **mkdoc.yml** file. Add theme setting to it. In our project, we will use **readthedocs** theme setting. Copy and paste the setting below in your "mkdocs.yml" file.
+
+```
+theme: readthedocs
+```
+
+Save the changes and check your browser. You will notice that the style of your documentation has changed as shown below:
+
+![](images/changeTheme.png)
