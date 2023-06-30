@@ -254,4 +254,13 @@ Next, let us add more information to the **About Page** and the **User Guide pag
 
 ![](images/userguide.png)
 
-You can add more pages to your documentation and write to suite your need and preference
+Go to your browser and see the changes you have made.
+
+![](images/newDoc.png)
+
+From the navigation bar, you will see the Home Page, About and User Guide on the left as well the Search, Previous and Next on the right.
+ 
+ The search button allows users to easily make searches.
+ ![](images/serchMKDOCS.png)
+
+You can add more pages to your documentation and write to suit your need. 
