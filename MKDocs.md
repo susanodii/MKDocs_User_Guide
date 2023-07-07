@@ -11,7 +11,7 @@
 - Installation of MKDocs
 - Writing your documentations with MKDocs
 - Theming your documentation
--  How to deploy your docs
+-  Deploying your Documentation
 - Conclusion
 
 ### **Introduction**
@@ -265,13 +265,31 @@ From the navigation bar, you will see the Home Page, About and User Guide on the
 You can add more pages to your documentation and write to suit your need. 
 
 ### **Theming your documentation**
+MKDocs has two built in theme which are:
+1. macdocs theme
+2. readthedocs
 
-You can alter how your documentation is displayed by changing your theme.You can do this by editing the **mkdoc.yml** file. Add theme setting to it. In our project, we will use **readthedocs** theme setting. Copy and paste the setting below in your "mkdocs.yml" file.
+**macdocs** is the default theme and was built with a custom Bootstrap theme. It supports most features of Macdocs.
+**readthedocs** theme is a clone of the default theme used by the Read The Docs services.
+It offers the same restricted feature-set as the macdocs and supports only two levels of navigation.
+
+However, there are other third party themes you can choose from as well.
+
+To choose theme, go to **mkdoc.yml** config file and set the theme as shown below:
+<!-- Add theme setting to it. In our project, we will use **readthedocs** theme setting. Copy and paste the setting below in your "mkdocs.yml" file. -->
 
 ```
 theme: readthedocs
 ```
 
-Save the changes and check your browser. You will notice that the style of your documentation has changed as shown below:
+Save the changes and check your browser. You will notice that the theme of your documentation.
 
 ![](images/changeTheme.png)
+
+###  **Deploying your documentation to Github**
+
+To deploy 
+
+```
+mkdocs gh-deploy
+```
