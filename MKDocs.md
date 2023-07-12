@@ -1,4 +1,4 @@
-## **A Detailed guide to MKDocs**
+## **How to build documentation with MKDocs**
 
 ![](images/mkdocs%20logo.jpg)
 
@@ -6,25 +6,25 @@
 ### **Table of Contents**
 - Introduction
 - What is MKDocs?
-- Why use MKDocs
-- Requirements for installation of MKDocs
-- Installation of MKDocs
+- What are the benefits of using MKDocs?
+- What are the requirements for installing MKDocs?
+- How to install MKDocs
 - Writing your documentations with MKDocs
 - Theming your documentation
--  Deploying your Documentation
+<!-- -  Deploying your Documentation -->
 - Conclusion
 
 ### **Introduction**
-We live in a **Degital Age**, an era where there is accelerated technological progress. Many businesses are now using technology to advance their businesses. How can business owners, developers, and teams provide detailed user-guides, project documentation or API references in a
- well organized manner? This is where MKDocs comes in. MKDocs is a static site generator for creating documentation. 
+We live in a **Degital Age**, an era where there is accelerated technological progress. Many businesses are now using technology to advance their businesses.Developers as well are constanly building products with the latest technology. How can business owners, developers, and teams provide detailed user-guides, project documentation or API references in a
+ well organized manner? This is where MKDocs comes in. MKDocs is a static site generator for creating documentation. It can be used to create product user guides, API documentation, operational manuals and so on.
 
-This article  will explain what MKDocs is and how it works, the features of MKDocs and step by step guide on how to us it.
+This article  will explain what MKDocs is and how it works, the features of MKDocs and step by step guide on how to build documentation with it.
 
 ### **What is MKDocs?**
 MKDocs is a static site generator that is used for creating documentation from Markdown files. MKDocs allows you to build simple, fast, well organized and responsive documentation.
-Documentation sites are written with Markdown and configured with a single file called **YAML**.
+MKDocs documentation sites are written with Python Markdown and configured with a single file called **YAML**.
 
-### **Why use MKDocs?**
+### **What are the benefits of using MKDocs?**
 
 - **Customizable and responsive themes**
 
@@ -33,7 +33,7 @@ MCKDocs offers varities of good looking themes
 
 - **Preview your site as you work** 
 
-MCKDocs allows you to preview you documentation as you work. It auto reloads and refresh your browser anytime you save any change made to your work.
+MCKDocs allows you to preview you documentation as you work. It auto reloads and refresh the browser anytime you save changes made to your work.
 
 - **Host Anywhere**
 
@@ -47,9 +47,9 @@ MKDocs uses simple configuration file called **mkdocs.yml** to control settings.
 
 MKDocs automatically generates table of contents and navigation side bar based on your preference, making it easier for users to find information quickly and efficently.
 
-### **Requirements for installation of MKDocs**
+### **What are the requirements for installing MKDocs?**
 
-To build a documentation with MKDocs, you need to have the recent version of **Python** and Python package manager called **Pip**.
+To install MKDocs, you need to have the recent version of **Python** and Python package manager called **Pip** installed in your computer.
 
 To check if you have **Python** and pip installed in your system: 
 
@@ -76,14 +76,14 @@ pip --version
 
 
 
-However, if you do not have **Python** installed in system, you will need to install it in your device. To do this:
+However, if you do not have **Python** installed in system, you will need to install it in your device. Follow the procedure below to install Python and Pip in your device.
   
   - Click on https://www.python.org/ .
-The link will take you to Python website. 
+This link will take you to Python website. 
 
 ![](images/pythonWebsite.PNG)
 
-- At the top, Hover over **Downloads**, a drop-down menu with pop-up.
+- At the top, Hover over **Downloads**, a drop-down menu will pop-up.
 
 ![](images/downloadPython.png)
 
@@ -121,9 +121,9 @@ If you do not have Pip installed in your system, run the following command to in
 python get-pip.py
 ```
 
-### **Installation of MKDocs**
+### **How to install MKDocs**
 
- MKDocs works with the current version of **Python** and **Pip** in your system. If you do not have **Python** installed in your system, follow the guides outlined above on how to install Python and Pip on your system. If you have the current version of Python on you system, then let us move on to the installation process. 
+ MKDocs works with the current version of **Python** and **Pip** in your system. If you do not have **Python** installed in your system, follow the installation guides outlined above. If you have the current version of Python on you system, then let us move on to the installation process. 
 
 
 To install MKDocs, run the command below in your command line.
@@ -138,9 +138,9 @@ After installation, your command line will indicated that you have successfully 
 
 ### **Writing your documentations with MKDocs**
 
-Documentation are  written using a text formater known as **Markdown**. Markdown is also used for stucturing plain text. It is a light weight markup language used in MKDocs for creating documentation. To learn more about markdown and how to work with it, click on https://www.markdownguide.org/basic-syntax/. 
+Documentation are  written using a text formater known as **Markdown**. Markdown is also used for stucturing plain text. It is a light weight markup language used in MKDocs for creating documentation. To learn more about markdown and how to work with it, click on https://www.markdownguide.org/basic-syntax/. Mark down files are placed inside the documentation directory. This directory is known as **docs** and will be positioned at the top level of your project together with **macdocs,yml** configuration file.
 
-Let's move ahead with creating a project folder.To create your project folder:
+Let's move ahead with creating a project folder.To create your project folder for creating a sample documentation.
 
 - On your terminal, run the command below:
 
@@ -166,7 +166,7 @@ code .
 ![](images/moveVSCODE.png)
 
 
-From the folder, you will see a single configuration file named **mkdocs.yml** and a  folder named **docs** that contains **index.md**.  "docs" will hold all your documentation source file while "mkdocs.yml" will serve as the central configuration file where you customize various aspect of your site to suite your specific needs and preferences.
+From the folder, you will see a single configuration file named **mkdocs.yml** and another folder named **docs** that contains **index.md**.  "docs" will hold all your documentation source file while "mkdocs.yml" will serve as the central configuration file where you customize various aspect of your site to suite your specific needs and preferences.
 
 Let us view our project on the browser before customizing our documentation to our preference. To do this, go back to your terminal and run the command below:
 
@@ -190,9 +190,6 @@ Having succesfully created a project folder and ran it on the browser, let us ma
 
 **Change Site Name and Add Site URL**
 
-<!-- Let us make changes to the **Home Page**. We will do the following:
-- Change the site name
-- Add site url. -->
 
 
  On you Visual Studio Code(VS Code) or any code editor of your choice, do the following:
@@ -243,7 +240,7 @@ nav:
 
 ```
 
-From the settings above, notice that the **Home Page** is linked to the index.md file.
+Your project Home Page should be names **index.md** by convention.
 
 Next, let us add more information to the **About Page** and the **User Guide page**. 
 
@@ -259,10 +256,33 @@ Go to your browser and see the changes you have made.
 
 From the navigation bar, you will see the Home Page, About and User Guide on the left as well the Search, Previous and Next on the right.
  
- The search button allows users to easily make searches.
+ The search button allows users to search any text one any page.
  ![](images/serchMKDOCS.png)
 
 You can add more pages to your documentation and write to suit your need. 
+
+Furthermore, you can nest pages under a section title by listing related pages together.
+To do this:
+- On your VS code, create the files you want to next.
+
+![](/images/creating-more-files.png)
+
+
+Note: All files should be created inside the **docs** folder.
+
+- Next, group related pages under a section title as shown below:
+  ![](/images/nesting-pages.PNG)
+
+  The above configuration contains five top level items : "Home", "Getting Started", " User Guide", " Developer Guide" and the " About". "Home" is the link to the homepage, "Getting Started" is the link to the getting started page. The "User Guide" has pages nested under it which are:'installation.md', "writing-your-docs.md", "choosing-your-theme.md", "customizing-your-theme.md", "localizing-your-theme.md" and so on. The same format of nesting applies to "Developer Guide" and the "About".
+
+
+  It should look like the image below on your browser:
+
+  ![](/images/nested.png)
+
+  When you click on the drop down arrow beside any section title, a drop down-menu containing the grouped pages will appear.
+
+  ![](/images/drop-down.png)
 
 ### **Theming your documentation**
 MKDocs has two built in theme which are:
@@ -275,8 +295,8 @@ It offers the same restricted feature-set as the macdocs and supports only two l
 
 However, there are other third party themes you can choose from as well.
 
-To choose theme, go to **mkdoc.yml** config file and set the theme as shown below:
-<!-- Add theme setting to it. In our project, we will use **readthedocs** theme setting. Copy and paste the setting below in your "mkdocs.yml" file. -->
+To choose theme, go to **mkdoc.yml** config file and set the theme using the command shown below:
+
 
 ```
 theme: readthedocs
@@ -284,12 +304,15 @@ theme: readthedocs
 
 Save the changes and check your browser. You will notice that the theme of your documentation.
 
-![](images/changeTheme.png)
+![](/images/readTheDoc.PNG)
 
-###  **Deploying your documentation to Github**
 
-To deploy 
 
-```
-mkdocs gh-deploy
-```
+**Conclusion**
+
+MkDocs is a static site generator that allows you to create stunning and organized documentaion using Markdown files. It's simplicity and flexibility makes it an excellent choice for developers, technical writers, content creators and businesses alike. With **Git** interation, you can save and manage you documentation in a repository. Additionally, MKDocs offers wide range of customizable themes, allowing your to tailor your documentation to your prefence and requirement. Whether you need user guides or comprehensive documentation, MkDocs empowers you to build beautiful and curated resources for your audience.
+
+
+
+
+<!-- MkDocs is a powerful static site generator that allows you to create stunning and organized documentation using Markdown files. Its simplicity and flexibility make it an excellent choice for developers, content creators, and businesses alike. With Git integration, you can easily save and manage your documentation in a repository, leveraging version control features. Additionally, MkDocs offers a wide range of customizable themes, allowing you to tailor the look and feel of your documentation to your preference and requirements. Whether you need user guides or comprehensive documentation, MkDocs empowers you to build beautiful and curated resources for your audience. -->
