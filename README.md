@@ -9,7 +9,7 @@ documentation. Some of these great features are:
 - You can host your documentation anywhere.
 
  In this user guide, you will learn more about: 
- 1. MKDocs:
+ 1. What MKDocs is:
  2. RequirementS for building with MKDocs
  3. How to install MKDocs
  4. How to build your documentation with MKDocs
