@@ -64,7 +64,7 @@ To check if you have **Python** and pip installed in your system:
  ```
  Your command line will indicate the version of Python in your system as shown in the image below:
 
- ![](images/pythonVersion.png)
+ ![](images/pythonversion.png)
 
  Once, you have confirmed that you have Python installed in your system, check for the pip version too. Copy the command below and paste on your command line. 
 
